@@ -50,5 +50,5 @@ jobs:
     - name: Store generated file
       uses: actions/upload-artifact@v1
       with:
-        name: rootfs-$version-$ARCH.tar.gz
-        path: ./rootfs-$version-$ARCH.tar.gz
+        name: rootfs-bullseye-arm64.tar.gz
+        path: ./rootfs-bullseye-arm64.tar.gz
