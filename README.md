@@ -7,3 +7,5 @@ Github  Actions Build Linux Rootfs
 ## 2.修改blank.yml
 ## 3.开启Actions即可
 ## 4.查看Upload中的Download Link (fq)
+
+#注意:进入Rootfs需要执行 /debootstrap/debootstrap --second-stage 初始化系统
