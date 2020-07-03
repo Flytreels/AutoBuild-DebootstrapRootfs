@@ -47,3 +47,8 @@ jobs:
       run: |
        curl -sL https://git.io/file-transfer | sh
        ./transfer wet rootfs-$version-$ARCH.tar.gz
+    - name: Store generated file
+      uses: actions/upload-artifact@v1
+      with:
+        name: rootfs-$version-$ARCH.tar.gz
+        path: ./rootfs-$version-$ARCH.tar.gz
