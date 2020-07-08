@@ -50,5 +50,5 @@ jobs:
     - name: Store generated file
       uses: actions/upload-artifact@v1
       with:
-        name: rootfs-focal-amd64.tar.gz
-        path: ./rootfs-focal-amd64.tar.gz
+        name: rootfs-focal-i386.tar.gz
+        path: ./rootfs-focal-i386.tar.gz
