@@ -34,7 +34,7 @@ jobs:
     - name: Building Rootfs
       run: |
         mkdir rootfs
-        sudo debootstrap --arch=$ARCH --foreign $version rootfs
+        sudo debootstrap --arch=$ARCH $version rootfs
         ls -l rootfs
       # Runs a set of commands using the runners shell
     - name: Saving Rootfs
